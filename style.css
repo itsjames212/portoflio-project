@@ -21,6 +21,7 @@ body{
 .input--wrapper{
     max-width: 400px;
     margin: 0 auto;
+    padding-top: 5px;
 }
 .nav--bar__input-icons .nav--bar__search-icon{
     position: absolute;

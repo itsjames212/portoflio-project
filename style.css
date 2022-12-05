@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 *{
     margin: 0;
+    color: #703be7;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 body{
     transition: background-color 500ms ease;
@@ -17,11 +23,16 @@ body{
     height: 50px;
     margin-bottom: 0%;
     background-color: hsl(210,8%,97.5%);
+    border-top: 5px solid #703be7;
 }
 .input--wrapper{
     max-width: 400px;
     margin: 0 auto;
-    padding-top: 5px;
+    padding-top: 10px;
+}
+.header--div__content{
+    display: flex;
+    align-items: center;
 }
 .nav--bar__input-icons .nav--bar__search-icon{
     position: absolute;
@@ -48,7 +59,8 @@ body{
 }
 .nav--bar__link-wrapper{
     list-style: none;
-    padding: 5px 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .nav--bar__list-wrapper{
     display: flex;
@@ -59,7 +71,7 @@ body{
 }
 .link--hover__effect{
   text-decoration: none;
-  color: black;
+  color: #703be7;
   border: 0;
   margin: 0.5rem 0;
   font-size: 1rem;
@@ -76,7 +88,7 @@ body{
     height: 2px;
     line-height: 1;
     width: 100%;
-    background-color: black;
+    background-color: #703be7;
     transform-origin: right bottom;
     transform: scaleX(0);
     transition: transform 0.4s ease;
@@ -100,16 +112,16 @@ body{
     background-color: #242424;
 }
 .dark--mode *{
-    color: white;
+    color: #703be7;
 }
 .dark--mode .nav--bar__search-icon{
-    color: black;
+    color: #703be7;
 }
 .dark--mode .link--hover__effect:hover:after{
-    background-color: white;
+    background-color: #703be7;
 }
 .dark--mode .link--hover__effect:after{
-    background-color: white;
+    background-color: #703be7;
 }
 .dark--mode .input--field{
     color: black;

@@ -11,6 +11,9 @@
 body {
   transition: background-color 500ms ease;
 }
+main{
+    transition: opacity 700ms ease;
+}
 .nav--bar__div {
   display: flex;
   align-items: center;

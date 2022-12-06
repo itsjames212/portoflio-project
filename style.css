@@ -196,4 +196,10 @@ main{
     opacity: 1;
     transform: translateX(0%)
 }
+.settings--icon__modal{
+    transition: all 500ms ease;
+}
+.settings--icon__modal:hover{
+    transform: rotate(-90deg)
+}
 
